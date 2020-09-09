@@ -188,5 +188,5 @@ pessoa.apresentacao = function(){
 }
 
 // Agora, apresente-se ;)
- pessoa.apresentacao(); //'Olá, eu sou o MartyMcFly, tenho 20 anos, Minha altura é 1.7m., meu peso é 70kg e, só hoje, eu já caminhei 84 metros!'
+ pessoa.apresentacao(); //'Olá, eu sou o Marty McFly, tenho 20 anos, Minha altura é 1.7m., meu peso é 70kg e, só hoje, eu já caminhei 84 metros!'
 ```
