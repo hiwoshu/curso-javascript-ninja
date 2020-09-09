@@ -24,7 +24,7 @@ Onde VALOR é o novo valor da variável.
 */
  function add(){
   y = 7;
-  return "O valor da variável agora é '7'.";
+  return `O valor da variável agora é ${y}.`;
 }
 
 // Invoque a função criada acima.
