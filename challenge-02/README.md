@@ -46,9 +46,9 @@ Crie uma função com as seguintes características:
 function arg1(a, b, c){
   if(a === undefined || b === undefined || c === undefined){
     return "Preencha todos os valores corretamente!";
-  } else {
-    return (a * b * c) + 2;
   }
+  
+  return (a * b * c) + 2;
 }
 
 // Invoque a função criada acima, passando só dois números como argumento.
@@ -91,23 +91,12 @@ funtion arg2(a, b, c){
 
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
 
-arg2();       //chamada da função com nenhum argumento
-false         //retorno
-
-arg2(2);         //chamada da função com um argumento
-2                //retorno
-arg2("banana");  //chamada da função com um argumento
-'banana'         //retorno
-
-arg2(2, 3);                 //chamada da função com dois argumentos
-5                           //retorno
-arg2("banana", "laranja");  //chamada da função com dois argumentos
-'bananalaranja'             //retorno
-
-arg2(2, 3, 4);                          //chamada da função com três argumentos
-1.25                                    //retorno
-arg2("banana", "laranja", "melancia");  //chamada da função com três argumentos
-NaN                                     //retorno
-
+arg2(); //false
+arg2(2); //2
+arg2("banana"); //'banana'
+arg2(2, 3); //5
+arg2("banana", "laranja"); //'bananalaranja'
+arg2(2, 3, 4); //1.25
+arg2("banana", "laranja", "melancia"); //NaN
 //a função não cai na última condicional else, portanto ela nunca retorna 'null'.
 ```
