@@ -180,7 +180,7 @@ método), que será concatenada com a frase de retorno, mostrando a resposta
 correta, de acordo com os dados inseridos no objeto.
 */
 pessoa.apresentacao = function(){
-  var nomeCompleto = pessoa.nome + pessoa.sobrenome, artigo = '', ano = '', m = '', altura = pessoa.mostrarAltura();
+  var nomeCompleto = pessoa.nome + ' ' +  pessoa.sobrenome, artigo = '', ano = '', m = '', altura = pessoa.mostrarAltura();
   if(pessoa.sexo === 'masculino'){artigo = 'o'} else {artigo = 'a'}
   if(pessoa.idade === 1){ano = 'ano'} else {ano = 'anos'}
   if(pessoa.caminhouQuantosMetros === 1){m = 'metro'} else {m = 'metros'}
