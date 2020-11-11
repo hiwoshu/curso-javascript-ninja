@@ -70,7 +70,7 @@ function book(livro){
 /*
 Usando a função criada acima, imprima o objeto com todos os livros.
 */
-book();
+console.log(book());
 
 /*
 Ainda com a função acima, imprima a quantidade de páginas de um livro qualquer,
