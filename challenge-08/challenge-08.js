@@ -22,7 +22,7 @@ console.log('O nome da função que faz a soma é ' + sum.name + '.');
 Crie uma função literal chamada `showName`. Essa função deve retornar o
 seu nome.
 */
-var showName = function(){ return 'Hiwoshu Nashimiro'; }
+function showName(){ return 'Hiwoshu Nashimiro'; }
 
 /*
 Declare uma variável chamada `varShowName` que recebe a função criada acima.
