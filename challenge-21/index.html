@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Challenge-21 - Javascript Ninja</title>
+	<style type="text/css">
+		*{
+			font-family: sans-serif;
+		}
+		body{
+			display: flex;
+			justify-content: center;
+		}
+		button{
+			background-color: dodgerblue;
+			display: flex;
+			justify-content: center;
+			color: #fff;
+			padding: 0.625rem 1.25rem;
+			height: 2.5rem;
+			width: 90px;
+			border: none;
+			border-radius: 0.35rem;
+			font-size: 1rem;
+			font-weight: bold;
+			cursor: pointer;
+			outline: none;
+		}
+		input{
+			padding: 0.625rem 1.25rem;
+			margin: 0.625rem;
+			border: 0.0625rem solid #ccc;
+			border-radius: 0.75rem;
+			color:#f00;
+			font-size: 1rem;			
+			font-weight:bold;
+			font-size:6.25rem;
+			text-align:center;
+			outline: none;
+		}
+		form{
+			display: flex;
+			justify-content: center;
+		}
+		#form{
+			align-items: baseline;
+		}
+		#buttons{
+			display: flex;
+			justify-content: space-between;
+		}
+	</style>
+</head>
+<body>
+	<div id="form">
+		<form action="" method="get">
+			<input type="text" value="0" size="2" data-js="timer"/>
+		</form><br />
+		<div id="buttons" name="buttons">
+			<button data-js="button-start">Start</button>
+			<button data-js="button-stop">Stop</button>
+			<button data-js="button-reset">Reset</button>
+		</div>
+	</div>
+	<script src="challenge-21.js"></script>
+</body>
+</html>
